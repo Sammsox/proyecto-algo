@@ -1,0 +1,149 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 3px solid #000000;
+  overflow: hidden;
+  border-radius: 6px;
+}
+.rectangle {
+  position: absolute;
+  width: 230px;
+  height: 1024px;
+  top: -3px;
+  left: -3px;
+  background: #3e0202;
+  z-index: 4;
+}
+.line {
+  position: absolute;
+  width: 4px;
+  height: 1024px;
+  top: 0;
+  left: 227px;
+  background: url(./assets/images/cfe35e06-d410-46ca-a76c-67aa875d0e17.png)
+    no-repeat center;
+  background-size: cover;
+}
+.flex-column {
+  position: absolute;
+  width: 178px;
+  height: 550px;
+  top: 454px;
+  left: 39px;
+  z-index: 7;
+}
+.image {
+  position: relative;
+  width: 148px;
+  height: 128px;
+  margin: auto;
+  background: url(https://png.pngtree.com/png-clipart/20210211/ourmid/pngtree-glossy-golden-coin-icon-png-image_2898883.jpg)
+    no-repeat center;
+  background-size: cover;
+  z-index: 5;
+}
+.image-1 {
+  position: relative;
+  width: 178px;
+  height: 144px;
+  margin: auto;
+  background: url(./assets/images/67cdc9f3-1c31-4a0a-89ff-29e0a8489a07.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 6;
+}
+.image-2 {
+  position: relative;
+  width: 148px;
+  height: 128px;
+  margin: auto;
+  background: url(./assets/images/75d13be4-44b1-4444-87b2-e3ffb223052f.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 7;
+}
+.rectangle-3 {
+  position: absolute;
+  width: 1210px;
+  height: 120px;
+  top: -3px;
+  left: 227px;
+  background: #3e0202;
+  z-index: 1;
+}
+.image-4 {
+  position: relative;
+  width: 154px;
+  height: 94px;
+  margin: auto;
+  background: url(./assets/images/fc268466-f20d-43d7-bf02-f1f5c0d74f48.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 8;
+}
+.ellipse {
+  position: absolute;
+  width: 1126px;
+  height: 134.047px;
+  top: 10px;
+  left: 297px;
+  background: url(./assets/images/911ae2f3-5113-456d-8103-1d7f84c47a6d.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 2;
+}
+.image-5 {
+  position: absolute;
+  width: 1058.183px;
+  height: 762.303px;
+  top: 50%;
+  left: 50%;
+  background: url(./assets/images/cb50aedb8706cd94f95fe03624d79f0ee8066051.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(-39.97%, -46.18%);
+  z-index: 3;
+}
+.ven-y-juega {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 48px;
+  top: 861px;
+  left: 524px;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 9;
+}

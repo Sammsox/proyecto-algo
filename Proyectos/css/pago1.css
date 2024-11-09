@@ -1,0 +1,352 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    background: #3e0202;
+    overflow: hidden;
+  }
+  .rectangle {
+    position: relative;
+    width: 1483px;
+    height: 205px;
+    margin: -9px 0 0 -20px;
+    font-size: 0px;
+    background: #ffffff;
+    border: 12px solid #000000;
+    overflow: visible auto;
+  }
+  .metodos-de-pago {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 552px;
+    height: 93px;
+    margin: 13px 0 0 464px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 77.455px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .flex-row-fdd {
+    position: relative;
+    width: 1440px;
+    height: 102px;
+    margin: 9px 0 0 20px;
+    z-index: 20;
+  }
+  .rectangle-1 {
+    position: absolute;
+    width: 682px;
+    height: 102px;
+    top: 0;
+    left: 758px;
+    background: #ffffff;
+    z-index: 20;
+  }
+  .line {
+    position: absolute;
+    width: 4px;
+    height: 101.04px;
+    top: 1px;
+    left: 0;
+    background: url(./assets/images/04d6ea80-3e5e-4a88-b052-a1fc2080c96a.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 22;
+  }
+  .retiro {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 230px;
+    height: 65px;
+    top: 12px;
+    left: 241px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 65px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 21;
+  }
+  .rectangle-2 {
+    position: absolute;
+    width: 758px;
+    height: 99px;
+    top: 3px;
+    left: 0;
+    background: #76baf5;
+    z-index: 17;
+  }
+  .line-3 {
+    position: absolute;
+    width: 1px;
+    height: 98px;
+    top: -1px;
+    left: 740px;
+    background: url(./assets/images/d13a9499-0253-4322-99b8-1f5410dcd1c4.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 2;
+  }
+  .deposito {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 279.48px;
+    height: 78.588px;
+    top: 9.186px;
+    left: 261.948px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 77.455px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 18;
+  }
+  .rectangle-4 {
+    position: relative;
+    width: 1064px;
+    height: 600px;
+    margin: 119px 0 0 208px;
+    font-size: 0px;
+    background: #d9d9d9;
+    z-index: 3;
+    overflow: visible auto;
+    border-radius: 20px;
+  }
+  .numero-de-tarjeta {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 211px;
+    height: 24px;
+    margin: 58px 0 0 444px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 13;
+  }
+  .rectangle-5 {
+    position: relative;
+    width: 903px;
+    height: 91px;
+    margin: 12px 0 0 98px;
+    background: #ffffff;
+    z-index: 5;
+    border-radius: 10px;
+  }
+  .flex-row-bb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 903px;
+    height: 76px;
+    margin: 64px 0 0 98px;
+    z-index: 9;
+  }
+  .rectangle-6 {
+    flex-shrink: 0;
+    position: relative;
+    width: 420px;
+    height: 76px;
+    background: #ffffff;
+    z-index: 6;
+    border-radius: 10px;
+  }
+  .rectangle-7 {
+    flex-shrink: 0;
+    position: relative;
+    width: 420px;
+    height: 76px;
+    background: #ffffff;
+    z-index: 9;
+    border-radius: 10px;
+  }
+  .flex-row-ea {
+    position: relative;
+    width: 790px;
+    height: 40px;
+    margin: 12px 0 0 112px;
+    z-index: 12;
+  }
+  .nombres {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 420px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.205px;
+    text-align: center;
+    z-index: 11;
+  }
+  .fecha-de-caducidad {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 223px;
+    height: 24px;
+    top: 0;
+    left: 567px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 12;
+  }
+  .flex-row-fd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 505px;
+    height: 78px;
+    margin: 12px 0 0 112px;
+    z-index: 7;
+  }
+  .rectangle-8 {
+    flex-shrink: 0;
+    position: relative;
+    width: 210px;
+    height: 78px;
+    background: #ffffff;
+    z-index: 7;
+    border-radius: 10px;
+  }
+  .rectangle-9 {
+    flex-shrink: 0;
+    position: relative;
+    width: 210px;
+    height: 78px;
+    background: #ffffff;
+    z-index: 4;
+    border-radius: 10px;
+  }
+  .flex-row-aa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 457px;
+    height: 36px;
+    margin: 6px 0 0 173px;
+    z-index: 14;
+  }
+  .cvc {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    width: 87px;
+    height: 36px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.205px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 10;
+  }
+  .cantidad-a-depositar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    width: 238px;
+    height: 24px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 14;
+  }
+  .rectangle-a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 210px;
+    height: 78px;
+    margin: -6px 0 0 823px;
+    cursor: pointer;
+    background: #1c14b7;
+    border: none;
+    z-index: 15;
+    border-radius: 5px;
+  }
+  .avanzar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    width: 147px;
+    height: 39px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.727px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 15;
+  }
+  
